@@ -1,51 +1,103 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
+/* shared style  */
 
-/* share style  */
-.font-open-sans {
+.font-open-sans{
+    
   font-family: "Open Sans", sans-serif;
   font-optical-sizing: auto;
   
 }
+.Btn{
+    background-color: #FD6E0A;
+    border: none; /*Btn modde kono border nai */
+    padding: 18.28px 35px 19.3px 36px; /*Hire me lika ma background color theke koto dure ache */
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 20px;
+    color:white;
+    cursor: pointer;
+
+}
+
+
+
 .logo h2{
     font-size: 45px;
-}
-.color-orange{
-    color: #FD6E0A;
     font-weight: bolder;
-}
-nav .menu{
-    display: flex;
-    list-style: none;
-    gap:51px;
-    align-items: center;
 
 }
 
-   /* main style  */
+/* aita a color ta garo sei jonno */
+.color-orange{
+    color:#FD6E0A;
+
+}
+
+/* main style  */
+
+
 
 header{
     background-color:#181818;
-    padding-top: 34px;
-}
-.btn{
-    background-color: #FD6E0A;
-    border: none;
-    padding: 18px 36px;
-    border-radius: 5px;
-    font-size: 20px;
-    font-weight: bold;
-    color: white;
+    background: url("../images/developer.png") ,url("../images/header_bg.png");
+    background-repeat: no-repeat; /*ai line use na korle ager line run korle img onek gola same photo aste.aita off korer jonno aita use kora hoise */
+    background-position: top left,bottom right;
+    padding-top: 91px;
 }
 nav{
-    width: 71%;
-    max-width: 1140px;
-    /* border: 2px solid red; */
+    width:1370px;
+    /* border: 1px solid red; */
     margin: 0px auto;
+    display:flex;
+    justify-content:space-between ;
+}
+.menu{
     display: flex;
-    justify-content: space-around;
+    list-style: none;
+     gap: 51px; /*Hire me theke 51px gap */
+     align-items: center;/*ai line na dile marry profile ek line chilo na ta ai line ta use korchi */
+}
+.menu a{
+    font-size: 20px;
+    color: #474747; /*aikane anchor golar fontsize r color nichi profilo r bloger */
+    text-decoration: none; /* ai line ta korer ageh amader portfolio blog modde under line chilo aigola remove korer jonno aigola korchi */
+}
+#banner{
+    border: 1px solid rebeccapurple;
+    margin:46px 38px 0 230px;
+    display:flex;/* aikene banner parent 2 ta child paragraph o img pasapasi rakse */
+    justify-content: space-between;
     align-items: center;
+
+}
+
+#banner .banner-content h2 {
+    font-size: 45px;
+    font-weight: 600px;
+    color: #474747;
+    margin-bottom: 5px;
+    
+
+}
+#banner .banner-content h1{
+    font-size: 85px;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 20px;
+    
+
+}
+#baner .banner-content p{
+    font-size: 18px;
+    color:#757575
+    line-height 30px;
+
+}
+
+#banner .baner-image img{
+    max-width: 584px;
+    vertical-align: middle; /*ai line ta use na korle img ekta halka gap thake.aitake remove korer jonno ai line ta use kora hoi */
 }
