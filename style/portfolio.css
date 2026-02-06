@@ -39,23 +39,25 @@
 .section-heading{
     max-width: 827px;
     text-align: center;
+    margin: 0 auto;
 
 }
 
-.section-heading h2{
+#about .about-container .section-heading h2{
     font-size: 35px;
     font-weight: bold;
-     margin-bottom: 35px; /*h2 about thke paragraph projojnto margin bottom 35px */
+    color: #181818;
+    padding-bottom: 30px;
 
 }
 
-.section-heading p{
+about .about-container .section-heading p{
     font-size: 18px;
-    margin-bottom: 30px;
-    line-height: 30px;
     color: #757575;
-
+    line-height: 30px;
+    margin-bottom: 30px;
 }
+ 
 
 /* main style  */
 
@@ -123,41 +125,178 @@ nav{
     vertical-align: middle; /*ai line ta use na korle img ekta halka gap thake.aitake remove korer jonno ai line ta use kora hoi */
 }
 
-
 #about{
-    padding-top: 130px;
-
-
+    padding-top:130px;
 }
+
 #about .about-container{
     width: 71%;
     max-width: 1140px;
     margin: 0 auto;
+/* ekon run korle code name r head ai likla gola modde asbe na.ai lika gola modde aser jonno amra text aligb center use korbo */
 
-    text-align: center;
-    background-color: #FFF8F3;
-    padding: 131px 156px;
-
+text-align: center;
 }
 
 #about .about-container .about-info{
     display: flex;
     justify-content: space-around;
 
-}
 
-.about-info .info-card p{
+
+
+}
+#about .about-container .about-info .info-card p{
+
     font-size: 20px;
-    
     line-height: 30px;
     color: #757575;
 
 
 }
-.about-info .info-card h4{
+
+#about .about-container .about-info .info-card h4{
+
     font-size: 20px;
+    font-weight: bold;
+    line-height:30px;
+    color: #474747;
+
 
 
 }
+
+
+#skills{
+    padding-top: 130px;
+}
+
+#skills .skills-container{
+
+    width:71%;
+    max-width:1140px;
+    margin: 0 auto;
+
+}
+
+#skills .skills-container .skills-box{
+    display: flex;
+    text-align: center;
+    gap: 24px;
+
+}
+#skills .skills-container .skills-card{
+    padding: 30px;
+    max-width: 267px;
+
+    /* box shadow use korbo javasicipt,node js aigolar modde ekta box create korer jonno */
+     box-shadow: 0 6px 50px 0px; 
+
+}
+
+#skills .skills-container .skills-card img{
+    max-width: 44px;
+    padding-bottom: 30px;
+}
+
+#skills .skills-container .skills-card h3{
+    font-size: 20px;
+    font-weight: bold;
+    color: #181818;
+    max-width: 174px;
+    margin-bottom: 20px;
+    
+}
+
+#skills .skills-container .skills-card p{
+    font-size: 18px;
+    line-height: 28px;
+    color: #757575;
+
+
+}
+
+#resume{
+    padding-top: 130px;
+    text-align: center;
+}
+
+#resume .resume-container{
+    max-width: 1140px;
+    width: 71%;
+    margin:113px auto 0;
+    display: flex;
+    gap: 71px;
+}
+
+/* section title my education jeita ache aita use korbo ekon */
+
+#resume .resume-container .section-title{
+    font-size: 30px;
+    font-weight: bold;
+    color: #474747;
+     /* border: 1px solid red;  */
+     margin-bottom: 30px;
+}
+#resume .resume-container .resume-card{
+    max-width: 511px;
+    margin-right: 47px;
+
+
+
+}
+
+#resume .resume-container .resume-card .card-title{
+    max-width: 405px;
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color:#474747;
+    /* border: 1px solid red; */
+
+}
+
+#resume .resume-container .resume-card .card-info{
+
+    font-size: 20px;
+    font-weight:600px;
+    max-width: 309px;
+    margin-bottom: 20px;
+    color: #757575;
+
+}
+#resume .resume-container .resume-card .card-text{
+    max-width: 511px;
+    color: #757575;
+    font-size: 16px;
+    line-height: 28px;
+    /* margin-bottom: 60px; */
+    /* border:1px solid green; */
+
+}
+
+#resume .resume-container hr{
+    margin: 30px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
